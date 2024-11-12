@@ -1,0 +1,32 @@
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+div span {
+    font-size: small;
+}
+
+.usuario {
+    height: 60%;
+}
+
+article {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: large;
+    margin-right: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+article p {
+    color: red;
+    text-decoration: underline;
+}
+
+div:empty {
+    border-top: 1px solid gray;
+    margin-bottom: 1.5rem;
+}
