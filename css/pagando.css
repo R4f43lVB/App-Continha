@@ -1,8 +1,21 @@
+footer {
+    height: 15%;
+    width: 100%;
+}
+
 section {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
 
+footer section {
+    height: 80%;
+}
+
+footer img {
+    height: 2rem;
+    align-self: flex-start;
 }
 
 div span {
@@ -21,12 +34,29 @@ article {
     padding-bottom: 3rem;
 }
 
-article p {
+#vermelho {
     color: red;
     text-decoration: underline;
 }
 
 div:empty {
+    margin-left: 0;
     border-top: 1px solid gray;
     margin-bottom: 1.5rem;
+}
+
+div.fundo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div .cupom {
+    height: 2rem;
+    width: 2rem;
+}
+
+#usos {
+    display: flex;
+    flex-direction: column;
 }
